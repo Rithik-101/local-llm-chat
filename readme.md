@@ -53,7 +53,7 @@ cd local-llm-app
 - Use Android Studio to **install and run** the app directly on your device  
   **OR**  
 - Simply **download the APK** from the link below and install it manually:  
-  [📦 Download APK](https://drive.google.com/file/d/1QZhA8cJhSPindRE-1n9QPtMf0HhMcrRL/view?usp=drive_link)
+  [📦 Download APK](https://github.com/Rithik-101/local-llm-chat/releases/download/v1.0/local_llm.apk)
 
 ---
 
