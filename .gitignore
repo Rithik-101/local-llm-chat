@@ -1,0 +1,13 @@
+.idea/
+*.iml
+.gradle/
+build/
+*/build/
+.kotlin/
+local.properties
+*.jks
+*.task
+release/
+*/release/
+.DS_Store
+Thumbs.db
