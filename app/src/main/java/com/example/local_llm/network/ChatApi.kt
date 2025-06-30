@@ -41,11 +41,7 @@ object ChatApi {
         val modelPath: String = if (modelUri != null) {
             copyModelToCache(context, modelUri!!).absolutePath
         } else {
-            val defaultFile = File(Environment.getExternalStorageDirectory(), "llm_model/gemma3n.task")
-            if (!defaultFile.exists()) {
-                throw IllegalStateException("Model file not found at ${defaultFile.absolutePath}")
-            }
-            defaultFile.absolutePath
+            throw IllegalStateException("No model selected. Please select a .task model file before chatting.")
         }
 
         val options = LlmInferenceOptions.builder()
@@ -85,7 +81,7 @@ object ChatApi {
             }
 
         } catch (e: Exception) {
-            onChunk("Model not loaded")
+            onChunk("Error: ${e.message ?: "Model not loaded"}")
         }
     }
 }
