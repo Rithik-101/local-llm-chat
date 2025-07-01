@@ -27,7 +27,7 @@ This is an Android app built using Jetpack Compose and MediaPipe's GenAI API. It
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/your-username/local-llm-app.git
+git clone https://github.com/Rithik-101/local-llm-chat
 cd local-llm-app
 ```
 
